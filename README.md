@@ -1,6 +1,14 @@
 # Pipe Viewer
 Rust piper visualizer
 
+## Notices
+There's a ```pre-commit``` hook that runs fmt and clippy.
+
+```
+cargo fmt
+exec cargo clippy -- -D warnings
+```
+
 
 ## How to run
 
@@ -8,9 +16,6 @@ Rust piper visualizer
 # Piping strings
 echo "a string" | cargo run
 ```
-
-## Notices
-There's a ```pre-commit``` hook that runs fmt and clippy.
 
 ```
 # Set environment variable
