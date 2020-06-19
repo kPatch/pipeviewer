@@ -1,2 +1,2 @@
-# pipe-viewer
+# Pipe Viewer
 Rust piper visualizer
